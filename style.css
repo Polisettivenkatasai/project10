@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    background: url(./assests/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2vh;
+}
+.logo h1 {
+    font-family: 'Poppins';
+    color: white;
+    width: 10vh;
+}
+ul.list-item {
+    margin-right: 3rem;
+    color: white;
+    font-family: 'Poppins';
+}
+.list-items {
+    display: flex;
+}
+#phone {
+    width: 35px;
+    height: 41px;
+    background-image: url(./assests/Interior\ Design\ landing\ page.svg);
+    background-position: 53px -41px;
+    margin-top: 1rem;
+}
+.list-ph {
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+}
+.list-ph ul {
+    padding-left: 0.5rem;
+}
+.container01 {
+    display: flex;
+    margin-left: 8%;
+}
+.first-section {
+    padding-block: 2rem;
+}
+.first-section h1 {
+    color: white;
+    font-family: 'Poppins';
+    width: 38rem;
+    font-size: 8vh;
+}
+button {
+    background: transparent;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    border-color: white;
+    padding: 10px;
+    padding-inline: 30px;
+}
+.left-section {
+    color: white;
+    font-family: 'Poppins';
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.a p {
+    width: 15rem;
+}
+.b p {
+    width: 15rem;
+}
+.a {
+    margin-bottom: 7rem;
+    background: #ffffff25;
+    padding: 4vh;
+}
+div#puzzle {
+    width: 100px;
+    height: 50px;
+    background-image: url(./assests/Interior\ Design\ landing\ page.svg);
+    background-position: 0px -31px;
+    border-radius: 2rem;
+}
+.b {
+    background: #ffffff25;
+    padding: 4vh;
+}
+div#bulb {
+    width: 100px;
+    height: 50px;
+    background-image: url(./assests/Interior\ Design\ landing\ page.svg);
+    background-position: -134px -37px;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .list-items {
+        display: none;
+    }
+    .container01 {
+        display: flex;
+        flex-flow: wrap;
+    }
+}
